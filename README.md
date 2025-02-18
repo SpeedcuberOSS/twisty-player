@@ -19,8 +19,18 @@ WebViews.
 [![Joseph Hale's software engineering blog](https://jhale.dev/badges/website.svg)](https://jhale.dev)
 [![](https://jhale.dev/badges/follow.svg)](https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=thehale)
 
+![Screenshot of an iPhone and a Google Pixel each rendering a twisty puzzle
+inside a webview. The iPhone shows a megaminx and the Pixel shows a 3x3x3 with a
+reflection in the top right corner.](docs/demo-mobile.svg)
+
 </div>
 
+## Quickstart
+
+1. Point your webview to [twisty-player.speedcuber.org](https://twisty-player.speedcuber.org)
+2. Call `window.app.setTwistyPlayer()` to place a 3x3x3 Rubik's Cube on the screen.
+
+For more details about the available options, look at the code in [`main.ts`](src/main.ts).
 
 ## License
 Copyright (c) 2025 Joseph Hale, All Rights Reserved.
